@@ -7,13 +7,11 @@ module.exports =
     Todo:
       text: String
       done: Boolean
-    User:
-      username: String 
 
   archive:
-    todos: 'Todo-list'
+    todos: 'Todo.vector'
 
   views:
     index:
      route: '/'
-     include: 'Todo-crud'
+     crud: 'Todo'
