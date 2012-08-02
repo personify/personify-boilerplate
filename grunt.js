@@ -1,3 +1,5 @@
 require('coffee-script');
-module.exports = function(grunt) { require('./grunt.coffee')(grunt); };
+module.exports = function(grunt) { 
+  require('./build/grunt.coffee')(grunt); 
+};
     
